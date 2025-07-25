@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Khảo sát đơn giản</title>
+</head>
+<body>
+    <h1>Khảo sát ý kiến</h1>
+    <form>
+        <h3>Mức độ hài lòng:</h3>
+        <input type="radio" id="good" name="rate" value="good" checked>
+        <label for="good">Hài lòng</label><br>
+        <input type="radio" id="normal" name="rate" value="normal">
+        <label for="normal">Bình thường</label><br>
+        <input type="radio" id="bad" name="rate" value="bad">
+        <label for="bad">Không hài lòng</label>
+        <h3>Sản phẩm quan tâm:</h3>
+        <input type="checkbox" id="phone" name="phone">
+        <label for="phone">Điện thoại</label><br>
+        <input type="checkbox" id="laptop" name="laptop">
+        <label for="laptop">Laptop</label>
+        <h3>Ý kiến của bạn:</h3>
+        <textarea name="feedback" rows="3" cols="40"></textarea>
+        <h3>Nguồn biết đến:</h3>
+        <select name="source">
+            <option>Bạn bè</option>
+            <option>Mạng xã hội</option>
+            <option>Khác</option>
+        </select>
+        <p><button type="submit">Gửi</button></p>
+    </form>
+</body>
+</html>
